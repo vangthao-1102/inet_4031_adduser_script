@@ -7,8 +7,6 @@ This program will help users automate the process of adding in users to a system
 This program focuses on automating for adding users to a system. It takes in file that contains the information and then goes through it line by line to make sure that all information is input correctly into the system. Once this is finished, the user can access directories to double check if the users were added successfully. Read comments on program to get a deeper dive into the program workings.
 
 ## Input File Format
-Explain the format of the input file. What is the purpose of each field in a line. Explain what the user needs to do if they want to skip a line in the input file. Expalin what the user needs to do if they do not want a new user added to any groups.
-
 The input file format must be a text file. This is because it allows for the program to read the file itself. Any other would be invalid as the program is not designed to read in files different from text files. In the file, there must be 5 fields. These 5 fields are first name, last name, group, password, and the naming of the user. Without these 5 valid fields, the line will be considered invalid. If one wants to remove or not include a line in the file, put a # symbol before everything. The program will then skip it. For a user to not be added to groups, use the - symbol to replace the group field. 
 
 ## Command Excuction
